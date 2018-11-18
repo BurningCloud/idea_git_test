@@ -11,6 +11,7 @@ public class Student implements Serializable {
     private Integer age;
     private String sex;
     private Integer idd;
+    private String addr;
 
     public Student(String name, Integer age, String sex, Integer id) {
         this.name = name;
